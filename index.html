@@ -83,8 +83,8 @@
             <h2>Hola, soy <span>Dolores Calderón</span></h2>
             <h3>Desarrolladora BackEnd </h3>
             <p> Soy una apasionada de la programación con una sólida formación en matemáticas. Actualmente, me desempeño
-                como ayudante de cátedra de matemática en la Universidad
-                Tecnológica Nacional (UTN), donde recientemente me gradué con un promedio de 9.25.
+                como ayudante de cátedra de matemática, estadística y base de datos en la Universidad
+                Tecnológica Nacional (UTN), donde me gradué con un promedio de 9.25.
             </p>
             <p>Esta experiencia no solo ha
                 enriquecido mi comprensión de los fundamentos matemáticos, sino que también ha fortalecido mi
@@ -181,55 +181,70 @@
     <!--SECCION PORTFOLIO-->
     <section id="portfolio">
 
-        <h3 class="titulo-seccion"> MIS PROYECTOS </h3>
+        <h3 class="titulo-seccion"> P R O Y E C T O S </h3>
 
         <div class="fila">
 
-            <div class="proyecto">
+            <div class="proyecto" data-title="Salón de eventos" data-principalTitle="La Clementina"
+                data-link="https://github.com/dolocalderon/campo" data-site="https://dolocalderon.github.io/campo/"
+                data-description=" Este proyecto fue desarrollado como parte de un curso de diseño web, utilizando HTML y CSS. Se trata
+            de una página web para una casa de campo que se alquila para eventos. El objetivo del proyecto era
+            crear una plataforma atractiva y funcional que permitiera a los usuarios obtener información sobre
+            la casa de campo, ver fotos del complejo y ponerse en contacto para reservar.
+            Este proyecto me permitió aplicar y profundizar en mis conocimientos de HTML y CSS, además de
+            aprender sobre diseño web responsive. El resultado es una página web funcional y estética que cumple
+            con los objetivos del cliente y ofrece una experiencia agradable a los usuarios."
+                data-image="img/campo.jpeg">
 
                 <div class="overlay"></div>
 
                 <img src="img/campo.jpeg" alt="">
 
                 <div class="info">
-                    <h4> Pagina web para salón de eventos </h4>
-                    <p>Diseño Web</p>
-                    <div class="link"> <a href="https://monarchical-checkou.000webhostapp.com" target="_blank">Visitar
-                            sitio</a></div>
+                    <h6> Salón de eventos </h6>
+                    <h4>La Clementina</h4>
                 </div>
 
             </div>
 
 
-            <div class="proyecto">
+            <div class="proyecto" data-title="Aplicación educativa espacial" data-principalTitle="Cosmoverso"
+                data-link="https://github.com/dolocalderon/AppEducativaEspacial"
+                data-site="https://final-7bb54.web.app/"
+                data-description="Cosmoverso es un proyecto desarrollado como trabajo final para una materia de la facultad, utilizando Angular, TypeScript, JavaScript, HTML y CSS. Además, incorpora una base de datos simulada con Postman. Esta aplicación educativa está diseñada para ofrecer información interactiva y detallada sobre el espacio, incluyendo planetas, estrellas, galaxias.
+                La página de inicio presenta un buscador avanzado que permite a los usuarios buscar planetas, estrellas, galaxias, entre otros. El buscador incluye opciones de autocompletado y permite realizar búsquedas tanto a través de un clic como presionando Enter. Si el elemento buscado no existe, el sistema proporciona sugerencias de cada categoría. En caso de encontrar el elemento, se muestra una tarjeta con información detallada y datos curiosos.     
+                Cosmoverso también incluye un sistema solar interactivo donde los usuarios pueden hacer clic en cada elemento para acceder a información específica y curiosidades generales sobre el espacio, que se presentan de forma aleatoria. Además, la aplicación cuenta con varios juegos educativos, como un quiz sobre el espacio, un memotest con imágenes y conceptos espaciales, y un juego donde los usuarios controlan una nave espacial. Estos juegos guardan la puntuación más alta en el localhost, permitiendo a los usuarios desafiarse a sí mismos y mejorar su rendimiento.
+                Una característica adicional es el chat simulado, que utiliza la API de ChatGPT para ofrecer una experiencia de conversación con un profesional del espacio. Este chat responde solo a preguntas relacionadas con el espacio o viajes espaciales. Sin embargo, esta funcionalidad no está habilitada actualmente debido a limitaciones de uso gratuito de la API."
+                data-image="img/sistemasolar.webp">
 
                 <div class="overlay"></div>
 
                 <img src="img/sistemasolar.webp" alt="">
 
                 <div class="info">
-                    <h4> Aplicacion educativa espacial </h4>
-                    <p>Angular, Javascript (base de datos simulada con Posman)</p>
-                    <div class="link"> <a href="https://github.com/dolocalderon/AppEducativaEspacial" target="_blank">
-                            Git Hub</a></div>
+                    <h6>Aplicación educativa espacial</h6>
+                    <h4>Cosmoverso</h4>
+                    <!--
                     <div class="link"> <a href="https://youtu.be/BpcfxptukLs" target="_blank"> Video </a></div>
-
+                    -->
                 </div>
 
             </div>
 
 
-            <div class="proyecto">
+            <div class="proyecto" data-title="Gestión de cine" data-principalTitle="Cinema Arcano"
+                data-link="https://github.com/dolocalderon/cinemaArcano" data-site=""
+                data-description="Cinema Arcano es un proyecto desarrollado en Java con interfaz gráfica en NetBeans, diseñado para simular un sistema de gestión de cine. Este proyecto incluye un sistema de usuario que permite iniciar sesión, ver las películas en cartelera, comprar entradas y revisar las funciones compradas pendientes.
+                La funcionalidad de compra de entradas es completa y detallada: los usuarios pueden acceder a un calendario para seleccionar los días, películas y horarios deseados. Además, el sistema muestra la sala de cine con las butacas disponibles, permitiendo a los usuarios elegir sus asientos preferidos. Una vez que la compra de la película se ha realizado, el sistema permite imprimir el ticket, que se descarga en formato PDF para mayor comodidad."
+                data-image="img/cine.jpeg">
 
                 <div class="overlay"></div>
 
                 <img src="img/cine.jpeg" alt="">
 
                 <div class="info">
-                    <h4> Sistema de gestion de cine</h4>
-                    <p>Java (interfaz gráfica en NetBeans) </p>
-                    <div class="link"> <a href="https://github.com/dolocalderon/cinemaArcano" target="_blank"> Git
-                            Hub</a></div>
+                    <h6>Gestión de cine</h6>
+                    <h4>Cinema Arcano</h4>
                 </div>
 
             </div>
@@ -238,6 +253,23 @@
 
     </section>
 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <div class="modal-text">
+                <h1 id="modal-principalTitle"></h1><h3 id="modal-title"></h3>
+                <div class="modal-image">
+                    <img id="modal-image" src="" alt="">
+                </div>
+                <div class="links">
+                    <div class="link"> <a id="modal-link" href="#" target="_blank"> <img src="img/github.png" alt=""> GitHub</a></div>
+                    <div class="link"><a id="modal-site" href="#" target="_blank"> <img src="img/sitioWeb.png" alt=""> Sitio web</a></div>
+                </div>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+    
 
 
     <!--SECCION FOOTER-->
@@ -251,6 +283,8 @@
                     class="fa-solid fa-phone"></i></a>
         </div>
     </footer>
+
+
 
 
     <script src="script.js"></script>
